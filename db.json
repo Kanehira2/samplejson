@@ -1,11 +1,9 @@
 {
-  "routehindcast" : [
-    {
-      "status" : "0",
-      "message" : "test.",
-      "request number" : "1",
-      "count" : "2",
-      "divide size" : "3"
-    }
-  ]
+  "routehindcast" : {
+    "status" : "0",
+    "message" : "test.",
+    "request number" : "1",
+    "count" : "2",
+    "divide size" : "3"
+  }
 }
