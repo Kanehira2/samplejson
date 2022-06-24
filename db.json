@@ -1,4 +1,4 @@
 {
-  "routehindcastresult" : {"status":"Succeeded","message":""},
+  "routehindcastresult" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":1,"divideNumber":1,"amount":2,"package":1,"note":"","timeseries":[{"dateAndTime":"2021-10-01 00:00:00","lat":30.0,"lon":135.0,"refGridStatus":0,"weather":[{"oceanWind":{"wsp":11.1,"wdir":325.1}}],"wave":[{"significantWave":{"hsig":6.31,"tsig":10.5,"dmean":35.6},"windSea":{"seaHsig":2.64,"seaTsig":6.2,"seaDmean":326.0},"swell":{"swellHsig":5.72,"swellTsig":11.4,"swellDmean":49.2}}]},{"dateAndTime":"2021-10-01 01:00:00","lat":30.0,"lon":136.0,"refGridStatus":0,"weather":[{"oceanWind":{"wsp":13.4,"wdir":310.5}}],"wave":[{"significantWave":{"hsig":6.69,"tsig":10.3,"dmean":17.6},"windSea":{"seaHsig":3.59,"seaTsig":7.1,"seaDmean":315.5},"swell":{"swellHsig":5.65,"swellTsig":11.5,"swellDmean":41.1}}]}]},
   "routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":1,"note":""}
 }
