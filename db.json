@@ -1,3 +1,4 @@
 {
-  "routehindcastresult" : {"status":"Succeeded","message":""}
+  "routehindcastresult" : {"status":"Succeeded","message":""},
+  "routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":1,"note":""}
 }
