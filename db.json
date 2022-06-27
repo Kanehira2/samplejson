@@ -1,5 +1,5 @@
 {
-  "routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":1,"note":""},
+  "routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":2,"note":""},
   "routehindcastresult" : {
     "status":"Succeeded",
     "message":"",
