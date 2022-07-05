@@ -76,5 +76,23 @@
         ]
       }
     ]
+  },
+  "dataset" : {
+    "ioSData": [
+      { "shipId": "9999990", “datatype”: "ShipData", “availableFrom”: "2016-01-01Z", “availableTo”: "2016-12-31Z" },
+      { "shipId": "9999990", “datatype”: "ShipData", “availableFrom: "2017-04-01Z", “availableTo”: null },
+      { "shipId": "9999991", “datatype”: "VDRData", “availableFrom”: "2017-01-01Z", “availableTo”: null}
+    ],
+    "RepData": [
+      { "shipId": "9999992", “dataType: "DepReport", “availableFrom”: "2017-04-01Z", “availableTo”: null},
+      { "shipId": "9999992", “datatype”: "AtSeaReport", “availableFrom”: "2017-04-01Z", “availableTo”: null},
+      { "shipId":"9999992", “datatype”: "ArrReport", “availableFrom”: "2017-04-01Z", “availableTo”: null},
+      { "shipId": "9999993", “datatype”: "BunkerReport", “availableFrom”: "2016-01-01Z", “availabelTo”: "2020-12-31Z"}
+    ],
+    "ShipFile": [
+      { "shipId": "9999994", “shipFileId”: "BDN", “availableFrom”: "2017-04-01Z", “availableTo”: "2019-03-31Z"},
+      { "shipId": "9999994", “shipFileId”: "ROB", “availableFrom”: "2017-04-01Z",” availableTo”: "2019-03-31Z"},
+      { "shipId": "9999995", “shipFileId”: "BL", “availableFrom”: "2017-04-01Z", “availabelTo”: null}
+    ]
   }
 }
