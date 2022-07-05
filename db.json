@@ -84,7 +84,7 @@
       { "shipId": "9999991", "datatype": "VDRData", "availableFrom": "2017-01-01Z", "availableTo": null}
     ],
     "RepData": [
-      { "shipId": "9999992", "dataType": "DepReport", "availableFrom": "2017-04-01Z", "availableTo": null},
+      { "shipId": "9999992", "datatype": "DepReport", "availableFrom": "2017-04-01Z", "availableTo": null},
       { "shipId": "9999992", "datatype": "AtSeaReport", "availableFrom": "2017-04-01Z", "availableTo": null},
       { "shipId": "9999992", "datatype": "ArrReport", "availableFrom": "2017-04-01Z", "availableTo": null},
       { "shipId": "9999993", "datatype": "BunkerReport", "availableFrom": "2016-01-01Z", "availabelTo": "2020-12-31Z"}
