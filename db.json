@@ -94,5 +94,52 @@
       { "shipId": "9999994", "shipFileId": "ROB", "availableFrom": "2017-04-01Z"," availableTo": "2019-03-31Z"},
       { "shipId": "9999995", "shipFileId": "BL", "availableFrom": "2017-04-01Z", "availabelTo": null}
     ]
+  },
+  "ios-data" : {
+    "data": [
+      {
+        "shipId": "1234567",
+        "dataClass": "IoSData",
+        "dataType": "ShipData",
+        "series": [
+          {
+            "ts": "2017-04-01T00:05:00Z",
+            "lat": 34.655,
+            "lon": 35,
+            "revNo": "r170101",
+            "sendTs": "2017-03-31T12:23:34Z",
+            "regTs": "2017-04-01T01:23:45Z",
+            "weather": "https://~/weather/jwa/find?~",
+            "items": [
+              {"idx":1, "value":"ShipData"},
+              {"idx":2, "value":"r170101"},
+              {"idx":3, "value":"2017-04-01T00:05:00Z"},
+              {"idx":7, "value":"data2"},
+              {"idx":8, "value":"data3"},
+              {"idx":14, "value":"data9"},
+              {"idx":20, "value":"data15"},
+            ]
+          },
+          {
+            "ts": "2017-04-01T12:07:35Z",
+            "lat": 35.125,
+            "lon": 34.841,
+            "revNo": "r170101",
+            "sendTs": "2017-03-31T12:23:34Z",
+            "regTs": "2017-04-01T01:23:45Z",
+            "weather": "https://~/weather/jwa/find?~",
+            "items": [
+              {"idx":1, "value":"ShipData"},
+              {"idx":2, "value":"r170101"},
+              {"idx":3, "value":"2017-04-01T00:05:00Z"},
+              {"idx":7, "value":"data2"},
+              {"idx":8, "value":"data3"},
+              {"idx":14, "value":"data9"},
+              {"idx":20, "value":"data15"},
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
