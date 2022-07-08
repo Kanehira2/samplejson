@@ -132,13 +132,102 @@
               {"idx":1, "value":"ShipData"},
               {"idx":2, "value":"r170101"},
               {"idx":3, "value":"2017-04-01T00:05:00Z"},
-              {"idx":7, "value":"data2"},
-              {"idx":8, "value":"data3"},
-              {"idx":14, "value":"data9"},
-              {"idx":20, "value":"data15"}
+              {"idx":4, "value":"data2"},
+              {"idx":5, "value":"data3"},
+              {"idx":6, "value":"data9"},
+              {"idx":7, "value":"data15"}
             ]
           }
         ]
+      }
+    ]
+  },
+  "getdatafind" : {
+    "shipId": "1234567",
+    "shipName": "Test ship",
+    "dataClass": "IoSData",
+    "dataType": "ShipData",
+    "revNo": "r170101",
+    "items": [
+      {
+        "idx": 0,
+        "channelName": "1",
+        "isoStdId": "JMAC/1M04////5R02//IV",
+        "isoStdName": "jsmea_mac/MainEngine////Revolution//Inst",
+        "localName": "M/E SHAFT REVOLUTION",
+        "scale": null,
+        "unit": "MIN-1",
+        "period": ""
+      },
+      {
+        "idx": 1,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 2,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 3,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 4,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 5,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 6,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
+      },
+      {
+        "idx": 7,
+        "channelName": "2",
+        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdName": "jsmea-nav/SpeedLOG////STW//Inst",
+        "localName": "Shp’s Speed",
+        "scale": null,
+        "unit": "knot",
+        "period": null
       }
     ]
   }
