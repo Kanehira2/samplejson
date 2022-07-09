@@ -141,8 +141,7 @@
               {"idx":27, "value":27},
               {"idx":28, "value":28},
               {"idx":29, "value":29},
-              {"idx":30, "value":30},
-              {"idx":31, "value":31}
+              {"idx":30, "value":30}
             ]
           },
           {
@@ -184,8 +183,7 @@
               {"idx":27, "value":277},
               {"idx":28, "value":288},
               {"idx":29, "value":299},
-              {"idx":30, "value":300},
-              {"idx":31, "value":311}
+              {"idx":30, "value":300}
             ]
             ]
           }
@@ -203,9 +201,9 @@
       {
         "idx": 0,
         "channelName": "1",
-        "isoStdId": "JMAC/1M04////5R02//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///UTC//Inst",
-        "localName": "M/E SHAFT REVOLUTION",
+        "localName": "",
         "scale": null,
         "unit": "MIN-1",
         "period": ""
@@ -213,9 +211,9 @@
       {
         "idx": 1,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///LAT//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -223,9 +221,9 @@
       {
         "idx": 2,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///LON//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -233,9 +231,9 @@
       {
         "idx": 3,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -243,9 +241,9 @@
       {
         "idx": 4,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -253,9 +251,9 @@
       {
         "idx": 5,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -263,9 +261,9 @@
       {
         "idx": 6,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -273,9 +271,9 @@
       {
         "idx": 7,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -283,9 +281,9 @@
       {
         "idx": 8,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -293,9 +291,9 @@
       {
         "idx": 9,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -303,9 +301,9 @@
       {
         "idx": 10,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -313,9 +311,9 @@
       {
         "idx": 11,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -323,9 +321,9 @@
       {
         "idx": 12,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -333,9 +331,9 @@
       {
         "idx": 13,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -343,9 +341,9 @@
       {
         "idx": 14,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -353,9 +351,9 @@
       {
         "idx": 15,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -363,9 +361,9 @@
       {
         "idx": 16,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -373,9 +371,9 @@
       {
         "idx": 17,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -383,9 +381,9 @@
       {
         "idx": 18,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -393,9 +391,9 @@
       {
         "idx": 19,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -403,9 +401,9 @@
       {
         "idx": 20,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -413,9 +411,9 @@
       {
         "idx": 21,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -423,9 +421,9 @@
       {
         "idx": 22,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -433,9 +431,9 @@
       {
         "idx": 23,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -443,9 +441,9 @@
       {
         "idx": 24,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -453,9 +451,9 @@
       {
         "idx": 25,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -463,9 +461,9 @@
       {
         "idx": 26,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Inst",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -473,9 +471,9 @@
       {
         "idx": 27,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -483,9 +481,9 @@
       {
         "idx": 28,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//StandardDeviation",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -493,9 +491,9 @@
       {
         "idx": 29,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//Average",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
@@ -503,19 +501,9 @@
       {
         "idx": 30,
         "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
+        "isoStdId": "",
         "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//StandardDeviation",
-        "localName": "Shp’s Speed",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 31,
-        "channelName": "2",
-        "isoStdId": "JHSM/1S04////5S05//IV",
-        "isoStdName": "",
-        "localName": "Shp’s Speed",
+        "localName": "",
         "scale": null,
         "unit": "knot",
         "period": null
