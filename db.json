@@ -1,513 +1,513 @@
 {
-  "routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":2,"note":""},
-  "routehindcastresult" : {
-    "status":"Succeeded",
-    "message":"",
-    "requestNumber":160,
-    "count":2,
-    "divideSize":1,
-    "divideNumber":1,
-    "amount":2,
-    "package":1,
-    "note":"",
-    "timeseries":[
-      {
-        "dateAndTime":"2021-10-01 00:00:00",
-        "lat":30.0,
-        "lon":135.0,
-        "refGridStatus":0,
-        "weather":[
-          {
-            "oceanWind":{
-              "wsp":11.1,
-              "wdir":325.1
-            }
-          }
-        ],
-        "wave":[
-          {
-            "significantWave":{
-              "hsig":6.31,
-              "tsig":10.5,
-              "dmean":35.6
-            },
-            "windSea":{
-              "seaHsig":2.64,
-              "seaTsig":6.2,
-              "seaDmean":326.0
-            },
-            "swell":{
-              "swellHsig":5.72,
-              "swellTsig":11.4,
-              "swellDmean":49.2
-            }
-          }
-        ]
-      },{
-        "dateAndTime":"2021-10-01 01:00:00",
-        "lat":30.0,"lon":136.0,
-        "refGridStatus":0,
-        "weather":[
-          {
-            "oceanWind":{
-              "wsp":13.4,
-              "wdir":310.5
-            }
-          }
-        ],
-        "wave":[
-          {
-            "significantWave":{
-              "hsig":6.69,
-              "tsig":10.3,
-              "dmean":17.6
-            },
-            "windSea":{
-              "seaHsig":3.59,
-              "seaTsig":7.1,
-              "seaDmean":315.5
-            },
-            "swell":{
-              "swellHsig":5.65,
-              "swellTsig":11.5,
-              "swellDmean":41.1
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "dataset" : {
-    "ioSData": [
-      { "shipId": "9999990", "datatype": "ShipData", "availableFrom": "2016-01-01Z", "availableTo": "2016-12-31Z" },
-      { "shipId": "9999990", "datatype": "ShipData", "availableFrom" : "2017-04-01Z", "availableTo": null },
-      { "shipId": "9999991", "datatype": "VDRData", "availableFrom": "2017-01-01Z", "availableTo": null}
-    ],
-    "RepData": [
-      { "shipId": "9999992", "datatype": "DepReport", "availableFrom": "2017-04-01Z", "availableTo": null},
-      { "shipId": "9999992", "datatype": "AtSeaReport", "availableFrom": "2017-04-01Z", "availableTo": null},
-      { "shipId": "9999992", "datatype": "ArrReport", "availableFrom": "2017-04-01Z", "availableTo": null},
-      { "shipId": "9999993", "datatype": "BunkerReport", "availableFrom": "2016-01-01Z", "availabelTo": "2020-12-31Z"}
-    ],
-    "ShipFile": [
-      { "shipId": "9999994", "shipFileId": "BDN", "availableFrom": "2017-04-01Z", "availableTo": "2019-03-31Z"},
-      { "shipId": "9999994", "shipFileId": "ROB", "availableFrom": "2017-04-01Z"," availableTo": "2019-03-31Z"},
-      { "shipId": "9999995", "shipFileId": "BL", "availableFrom": "2017-04-01Z", "availabelTo": null}
-    ]
-  },
-  "ios-data" : {
-    "data": [
-      {
-        "shipId": "1234567",
-        "dataClass": "IoSData",
-        "dataType": "ShipData",
-        "series": [
-          {
-            "ts": "2016-09-04T02:00:00Z",
-            "lat": 34.655,
-            "lon": 35,
-            "revNo": "r170101",
-            "sendTs": "2017-03-31T12:23:34Z",
-            "regTs": "2017-04-01T01:23:45Z",
-            "weather": "https://~/weather/jwa/find?~",
-            "items": [
-              {"idx":0, "value":"2016-09-04T02:00:00Z"},
-              {"idx":1, "value":1.1},
-              {"idx":2, "value":2.2},
-              {"idx":3, "value":3},
-              {"idx":4, "value":4},
-              {"idx":5, "value":5},
-              {"idx":6, "value":6},
-              {"idx":7, "value":7},
-              {"idx":8, "value":8},
-              {"idx":9, "value":9},
-              {"idx":10, "value":10},
-              {"idx":11, "value":11},
-              {"idx":12, "value":12},
-              {"idx":13, "value":13},
-              {"idx":14, "value":14},
-              {"idx":15, "value":15},
-              {"idx":16, "value":16},
-              {"idx":17, "value":17},
-              {"idx":18, "value":18},
-              {"idx":19, "value":19},
-              {"idx":20, "value":20},
-              {"idx":21, "value":21},
-              {"idx":22, "value":22},
-              {"idx":23, "value":23},
-              {"idx":24, "value":24},
-              {"idx":25, "value":25},
-              {"idx":26, "value":26},
-              {"idx":27, "value":27},
-              {"idx":28, "value":28},
-              {"idx":29, "value":29},
-              {"idx":30, "value":30}
-            ]
-          },
-          {
-            "ts": "2017-04-01T12:07:35Z",
-            "lat": 35.125,
-            "lon": 34.841,
-            "revNo": "r170101",
-            "sendTs": "2017-03-31T12:23:34Z",
-            "regTs": "2017-04-01T01:23:45Z",
-            "weather": "https://~/weather/jwa/find?~",
-            "items": [
-              {"idx":0, "value":"2016-09-04T02:30:00Z"},
-              {"idx":1, "value":11.1},
-              {"idx":2, "value":22.2},
-              {"idx":3, "value":33},
-              {"idx":4, "value":44},
-              {"idx":5, "value":55},
-              {"idx":6, "value":66},
-              {"idx":7, "value":77},
-              {"idx":8, "value":88},
-              {"idx":9, "value":99},
-              {"idx":10, "value":100},
-              {"idx":11, "value":111},
-              {"idx":12, "value":122},
-              {"idx":13, "value":133},
-              {"idx":14, "value":144},
-              {"idx":15, "value":155},
-              {"idx":16, "value":166},
-              {"idx":17, "value":177},
-              {"idx":18, "value":188},
-              {"idx":19, "value":199},
-              {"idx":20, "value":200},
-              {"idx":21, "value":211},
-              {"idx":22, "value":222},
-              {"idx":23, "value":233},
-              {"idx":24, "value":244},
-              {"idx":25, "value":255},
-              {"idx":26, "value":266},
-              {"idx":27, "value":277},
-              {"idx":28, "value":288},
-              {"idx":29, "value":299},
-              {"idx":30, "value":300}
-            ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "getdatafind" : {
-    "shipId": "1234567",
-    "shipName": "Test ship",
-    "dataClass": "IoSData",
-    "dataType": "ShipData",
-    "revNo": "r170101",
-    "items": [
-      {
-        "idx": 0,
-        "channelName": "1",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///UTC//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "MIN-1",
-        "period": ""
-      },
-      {
-        "idx": 1,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///LAT//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 2,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///LON//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 3,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 4,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 5,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 6,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 7,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 8,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 9,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 10,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 11,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 12,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 13,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 14,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 15,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 16,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 17,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 18,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 19,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 20,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 21,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 22,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 23,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 24,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 25,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 26,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Inst",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 27,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 28,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 29,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//Average",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      },
-      {
-        "idx": 30,
-        "channelName": "2",
-        "isoStdId": "",
-        "isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//StandardDeviation",
-        "localName": "",
-        "scale": null,
-        "unit": "knot",
-        "period": null
-      }
-    ]
-  }
+"routehindcast" : {"status":"Succeeded","message":"","requestNumber":160,"count":2,"divideSize":2,"note":""},
+"routehindcastresult" : {
+"status":"Succeeded",
+"message":"",
+"requestNumber":160,
+"count":2,
+"divideSize":1,
+"divideNumber":1,
+"amount":2,
+"package":1,
+"note":"",
+"timeseries":[
+{
+"dateAndTime":"2021-10-01 00:00:00",
+"lat":30.0,
+"lon":135.0,
+"refGridStatus":0,
+"weather":[
+{
+"oceanWind":{
+"wsp":11.1,
+"wdir":325.1
+}
+}
+],
+"wave":[
+{
+"significantWave":{
+"hsig":6.31,
+"tsig":10.5,
+"dmean":35.6
+},
+"windSea":{
+"seaHsig":2.64,
+"seaTsig":6.2,
+"seaDmean":326.0
+},
+"swell":{
+"swellHsig":5.72,
+"swellTsig":11.4,
+"swellDmean":49.2
+}
+}
+]
+},{
+"dateAndTime":"2021-10-01 01:00:00",
+"lat":30.0,"lon":136.0,
+"refGridStatus":0,
+"weather":[
+{
+"oceanWind":{
+"wsp":13.4,
+"wdir":310.5
+}
+}
+],
+"wave":[
+{
+"significantWave":{
+"hsig":6.69,
+"tsig":10.3,
+"dmean":17.6
+},
+"windSea":{
+"seaHsig":3.59,
+"seaTsig":7.1,
+"seaDmean":315.5
+},
+"swell":{
+"swellHsig":5.65,
+"swellTsig":11.5,
+"swellDmean":41.1
+}
+}
+]
+}
+]
+},
+"dataset" : {
+"ioSData": [
+{ "shipId": "9999990", "datatype": "ShipData", "availableFrom": "2016-01-01Z", "availableTo": "2016-12-31Z" },
+{ "shipId": "9999990", "datatype": "ShipData", "availableFrom" : "2017-04-01Z", "availableTo": null },
+{ "shipId": "9999991", "datatype": "VDRData", "availableFrom": "2017-01-01Z", "availableTo": null}
+],
+"RepData": [
+{ "shipId": "9999992", "datatype": "DepReport", "availableFrom": "2017-04-01Z", "availableTo": null},
+{ "shipId": "9999992", "datatype": "AtSeaReport", "availableFrom": "2017-04-01Z", "availableTo": null},
+{ "shipId": "9999992", "datatype": "ArrReport", "availableFrom": "2017-04-01Z", "availableTo": null},
+{ "shipId": "9999993", "datatype": "BunkerReport", "availableFrom": "2016-01-01Z", "availabelTo": "2020-12-31Z"}
+],
+"ShipFile": [
+{ "shipId": "9999994", "shipFileId": "BDN", "availableFrom": "2017-04-01Z", "availableTo": "2019-03-31Z"},
+{ "shipId": "9999994", "shipFileId": "ROB", "availableFrom": "2017-04-01Z"," availableTo": "2019-03-31Z"},
+{ "shipId": "9999995", "shipFileId": "BL", "availableFrom": "2017-04-01Z", "availabelTo": null}
+]
+},
+"ios-data" : {
+"data": [
+{
+"shipId": "1234567",
+"dataClass": "IoSData",
+"dataType": "ShipData",
+"series": [
+{
+"ts": "2016-09-04T02:00:00Z",
+"lat": 34.655,
+"lon": 35,
+"revNo": "r170101",
+"sendTs": "2017-03-31T12:23:34Z",
+"regTs": "2017-04-01T01:23:45Z",
+"weather": "",
+"items": [
+{"idx":0, "value":"2016-09-04T02:00:00Z"},
+{"idx":1, "value":1.1},
+{"idx":2, "value":2.2},
+{"idx":3, "value":3},
+{"idx":4, "value":4},
+{"idx":5, "value":5},
+{"idx":6, "value":6},
+{"idx":7, "value":7},
+{"idx":8, "value":8},
+{"idx":9, "value":9},
+{"idx":10, "value":10},
+{"idx":11, "value":11},
+{"idx":12, "value":12},
+{"idx":13, "value":13},
+{"idx":14, "value":14},
+{"idx":15, "value":15},
+{"idx":16, "value":16},
+{"idx":17, "value":17},
+{"idx":18, "value":18},
+{"idx":19, "value":19},
+{"idx":20, "value":20},
+{"idx":21, "value":21},
+{"idx":22, "value":22},
+{"idx":23, "value":23},
+{"idx":24, "value":24},
+{"idx":25, "value":25},
+{"idx":26, "value":26},
+{"idx":27, "value":27},
+{"idx":28, "value":28},
+{"idx":29, "value":29},
+{"idx":30, "value":30}
+]
+},
+{
+"ts": "2017-04-01T12:07:35Z",
+"lat": 35.125,
+"lon": 34.841,
+"revNo": "r170101",
+"sendTs": "2017-03-31T12:23:34Z",
+"regTs": "2017-04-01T01:23:45Z",
+"weather": "",
+"items": [
+{"idx":0, "value":"2016-09-04T02:30:00Z"},
+{"idx":1, "value":11.1},
+{"idx":2, "value":22.2},
+{"idx":3, "value":33},
+{"idx":4, "value":44},
+{"idx":5, "value":55},
+{"idx":6, "value":66},
+{"idx":7, "value":77},
+{"idx":8, "value":88},
+{"idx":9, "value":99},
+{"idx":10, "value":100},
+{"idx":11, "value":111},
+{"idx":12, "value":122},
+{"idx":13, "value":133},
+{"idx":14, "value":144},
+{"idx":15, "value":155},
+{"idx":16, "value":166},
+{"idx":17, "value":177},
+{"idx":18, "value":188},
+{"idx":19, "value":199},
+{"idx":20, "value":200},
+{"idx":21, "value":211},
+{"idx":22, "value":222},
+{"idx":23, "value":233},
+{"idx":24, "value":244},
+{"idx":25, "value":255},
+{"idx":26, "value":266},
+{"idx":27, "value":277},
+{"idx":28, "value":288},
+{"idx":29, "value":299},
+{"idx":30, "value":300}
+]
+]
+}
+]
+}
+]
+},
+"getdatafind" : {
+"shipId": "1234567",
+"shipName": "Test ship",
+"dataClass": "IoSData",
+"dataType": "ShipData",
+"revNo": "r170101",
+"items": [
+{
+"idx": 0,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///UTC//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": ""
+},
+{
+"idx": 1,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///LAT//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 2,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///LON//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 3,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 4,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 5,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///SOG//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 6,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 7,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 8,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/SpeedandDistanceMeasurementSystem/DopplerLOG///STW//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 9,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 10,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 11,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/PositioningSystem/GNSS///COG//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 12,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 13,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 14,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/HeadingMeasurementSystem/GyroCompass///Heading//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 15,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 16,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 17,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/ManeuveringSystem/Rudder///RSA//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 18,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 19,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 20,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_mac/MainEngine/Engine/Revolution//Speed//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 21,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 22,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_mac/MainEngine/DrivingShaft/Output//Power//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 23,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 24,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindSpeed//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 25,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 26,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Relative//WindDirection//Inst",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 27,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 28,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindSpeed//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 29,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//Average",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+},
+{
+"idx": 30,
+"channelName": "",
+"isoStdId": "",
+"isoStdName": "jsmea_nav/MeteorologicalObservationSystem/WindIndicator/Theoritical//WindDirection//StandardDeviation",
+"localName": "",
+"scale": null,
+"unit": "",
+"period": null
+}
+]
+}
 }
