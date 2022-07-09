@@ -155,35 +155,7 @@
 "items": [
 {"idx":0, "value":"2016-09-04T02:30:00Z"},
 {"idx":1, "value":11.1},
-{"idx":2, "value":22.2},
-{"idx":3, "value":33},
-{"idx":4, "value":44},
-{"idx":5, "value":55},
-{"idx":6, "value":66},
-{"idx":7, "value":77},
-{"idx":8, "value":88},
-{"idx":9, "value":99},
-{"idx":10, "value":100},
-{"idx":11, "value":111},
-{"idx":12, "value":122},
-{"idx":13, "value":133},
-{"idx":14, "value":144},
-{"idx":15, "value":155},
-{"idx":16, "value":166},
-{"idx":17, "value":177},
-{"idx":18, "value":188},
-{"idx":19, "value":199},
-{"idx":20, "value":200},
-{"idx":21, "value":211},
-{"idx":22, "value":222},
-{"idx":23, "value":233},
-{"idx":24, "value":244},
-{"idx":25, "value":255},
-{"idx":26, "value":266},
-{"idx":27, "value":277},
-{"idx":28, "value":288},
-{"idx":29, "value":299},
-{"idx":30, "value":300}
+{"idx":2, "value":22.2}
 ]
 ]
 }
